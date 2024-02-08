@@ -1,0 +1,92 @@
+/* OSWALD FONT */
+@font-face{
+    font-family: "Oswald";
+    src: url('../fonts/Oswald/static/Oswald-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Oswald";
+    src: url('../fonts/Oswald/static/Oswald-Light.ttf');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Oswald";
+    src: url('../fonts/Oswald/static/Oswald-Semibold.ttf');
+    font-weight: semibold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Oswald";
+    src: url('../fonts/Oswald/static/Oswald-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+/* LATO FONT */
+@font-face{
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Light.ttf');
+    font-weight: light;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Top Nav Styling */
+.main-menu-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu {
+    list-style-type: none;
+    align-items: center;
+}
+
+.AECOM {
+    float: left;
+    font-family: "Oswald";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main-menu li {
+    padding: 0px 30px;
+    display: inline-block;
+}
+
+.main-menu-item:link,
+.main-menu-item:visited  {
+    font-family: "Oswald";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: #008768;
+    opacity: 0.8;
+}
+
+.main-menu-item:hover {
+    color: #015c47;
+    opacity: 1.0;
+}
+/* Index HTML Styling */
