@@ -1,3 +1,15 @@
+.text-wrapper {
+    margin: auto;
+    width: 75vw;
+}
+
+p {
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+}
+
 .map-wrapper {
     margin: auto;
     width: 900px;
