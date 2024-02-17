@@ -1,0 +1,16 @@
+.text-wrapper {
+    margin: auto;
+    width: 90vw;
+}
+
+p {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.service-wheel {
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}

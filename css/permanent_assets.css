@@ -1,52 +1,88 @@
+/* COLOR REFERENCE 
+
+earth green = #008768
+lime green = #aecc53
+midnight teal = #00353e
+ocean teal = #006f7f
+sunrise yellow = #ffd254 */
+
+
 /* OSWALD FONT */
-@font-face{
+@font-face {
     font-family: "Oswald";
     src: url('../fonts/Oswald/static/Oswald-Regular.ttf') format("truetype");
     font-weight: 400;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Oswald";
     src: url('../fonts/Oswald/static/Oswald-Light.ttf') format("truetype");
     font-weight: 300;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Oswald";
     src: url('../fonts/Oswald/static/Oswald-SemiBold.ttf') format("truetype");
     font-weight: 600;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Oswald";
     src: url('../fonts/Oswald/static/Oswald-Bold.ttf') format("truetype");
     font-weight: 700;
     font-style: normal;
 }
+
 /* LATO FONT */
-@font-face{
+@font-face {
     font-family: "Lato";
     src: url('../fonts/Lato/Lato-Regular.ttf') format("truetype");
     font-weight: 400;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Lato";
     src: url('../fonts/Lato/Lato-Light.ttf') format("truetype");
     font-weight: 300;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Lato";
     src: url('../fonts/Lato/Lato-Bold.ttf') format("truetype");
     font-weight: 700;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "Lato";
     src: url('../fonts/Lato/Lato-Italic.ttf') format("truetype");
     font-weight: 400;
     font-style: italic;
+}
+
+/* Basic H Elements */
+
+h1 {
+    font-family: "Lato";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-decoration: none;
+    color: #00353e;
+}
+
+h2 {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+    color: #006f7f;
 }
 
 /* Top Nav Styling */
@@ -66,7 +102,7 @@
 }
 
 .main-menu-item:link,
-.main-menu-item:visited  {
+.main-menu-item:visited {
     font-family: "Oswald";
     font-weight: 300;
     font-style: normal;
@@ -80,4 +116,33 @@
     color: #015c47;
     opacity: 1.0;
 }
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: "Oswald";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    color: #008768;
+    display: block;
+  }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* Index HTML Styling */
