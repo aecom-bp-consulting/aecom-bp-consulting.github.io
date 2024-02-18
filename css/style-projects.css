@@ -1,0 +1,59 @@
+.cardgrid {
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardimagecontainer {
+    text-align: center;
+}
+
+.cardtextcontainer {
+    text-align: center;
+}
+
+.cardimage {
+    min-width: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+p.cardtitle {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 25px;
+    color: #006f7f;
+}
+
+p.cardtext {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+}
+
+.cardbutton,
+.cardbutton:link,
+.cardbutton:visited {
+    padding: 10px 12px;
+    text-decoration: none;
+    background-color: #008768;
+    color: #fffff0;
+    font-family: "Lato";
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.8;
+}
+
+.cardbutton:hover {
+    opacity: 1;
+}
