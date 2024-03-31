@@ -1,0 +1,41 @@
+.project-title-container {
+    text-align: center;
+}
+
+.project-image-container {
+    text-align: center;
+}
+
+.project-image-credits {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lato";
+    font-style: italic;
+    font-size: 10px;
+}
+
+.client-information-container {
+    text-align: center;
+}
+
+.client-information-container ul {
+    padding-left: 0px;
+    list-style-type: none;
+    display: block;
+    font-family: "Lato";
+    font-size: 15px;
+}
+
+.project-text-container {
+    margin: auto;
+    width: 70vw;
+}
+
+p {
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
