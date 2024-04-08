@@ -6,29 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/permanent_assets.css">
     <link rel="stylesheet" href="../css/style-projects.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Team</title>
 </head>
 
 <body>
+    
     <!-- TOP-NAV-BAR -->
-    <div class="main-menu-wrapper">
-        <ul class="main-menu">
-            <li><a href="../index.html" class="main-menu-item">HOME</a></li>
-            <li><a href="about.html" class="main-menu-item">ABOUT</a></li>
-            <li>
-                <div class="dropdown">
-                    <a href="projects.html" class="main-menu-item">PROJECTS</a>
-                    <div class="dropdown-content">
-                        <a href="project-pages/project-laent.html">Los Angeles E&T</a>
-                        <a href="project-pages/project-planomarketstudy.html">Plano Market Study</a>
-                        <a href="project-pages/project-stlco.html">St. Louis County</a>
-                        <a href="projects.html">See More</a>
-                    </div>
-                </div>
-            </li>
-            <li><a href="contact.html" class="main-menu-item">CONTACT</a></li>
-        </ul>
-    </div>
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/resources/navbar.html");
+        });
+    </script>
+    </script>
 
 
     <!-- PROJECTS LAYOUT -->
@@ -37,38 +28,38 @@
 
         <div class="cardcontainer">
             <div class="cardimagecontainer">
-                <img class="cardimage" src="../images/project-images/LosAngelesE&T_0.png">
+                <img class="cardimage" src="/images/project-images/LosAngelesE&T_0.png">
             </div>
             <div class="cardtextcontainer">
                 <p class="cardtitle">Los Angeles Economics & Technology</p>
                 <p class="cardtext"> AECOM was contracted to assist Los Angeles City Planning in updating the City's
                     General Framework, a forward-looking document that will inform city planning for the coming decades.
                 </p>
-                <a href="project-pages/project-laent.html" class="cardbutton">Read More</a>
+                <a href="/html/project-pages/project-laent.html" class="cardbutton">Read More</a>
             </div>
         </div>
 
         <div class="cardcontainer">
             <div class="cardimagecontainer">
-                <img class="cardimage" src="../images/project-images/PlanoMarketStudy_0.png">
+                <img class="cardimage" src="/images/project-images/PlanoMarketStudy_0.png">
             </div>
             <div class="cardtextcontainer">
                 <p class="cardtitle">Plano Market Study</p>
                 <p class="cardtext"> AECOM was contracted by Plano's Department of City Planning to create a set of
                     public-facing dashboards that would make demographic, housing, and commercial real estate insights
                     accessible to Plano's residents. </p>
-                <a href="project-pages/project-planomarketstudy.html" class="cardbutton">Read More</a>
+                <a href="/html/project-pages/project-planomarketstudy.html" class="cardbutton">Read More</a>
             </div>
         </div>
 
         <div class="cardcontainer">
             <div class="cardimagecontainer">
-                <img class="cardimage" src="../images/project-images/StLouisCounty_0.png">
+                <img class="cardimage" src="/images/project-images/StLouisCounty_0.png">
             </div>
             <div class="cardtextcontainer">
                 <p class="cardtitle">St. Louis County</p>
                 <p class="cardtext"> AECOM was contracted ... [Get Julius or Daniel's help to fill out this project blurb] </p>
-                <a href="project-pages/project-stlco.html" class="cardbutton">Read More</a>
+                <a href="/html/project-pages/project-stlco.html" class="cardbutton">Read More</a>
             </div>
 
         </div>

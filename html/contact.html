@@ -4,27 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/permanent_assets.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Contact</title>
 </head>
 <body>
-        <!-- TOP-NAV-BAR -->
-        <div class="main-menu-wrapper">
-            <ul class="main-menu">
-                <li><a href="../index.html" class="main-menu-item">HOME</a></li>
-                <li><a href="about.html" class="main-menu-item">ABOUT</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a href="projects.html" class="main-menu-item">PROJECTS</a>
-                        <div class="dropdown-content">
-                            <a href="project-pages/project-laent.html">Los Angeles E&T</a>
-                            <a href="project-pages/project-planomarketstudy.html">Plano Market Study</a>
-                            <a href="project-pages/project-stlco.html">St. Louis County</a>
-                            <a href="projects.html">See More</a>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="contact.html" class="main-menu-item">CONTACT</a></li>
-            </ul>
-        </div>
+    <!-- TOP-NAV-BAR -->
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("/resources/navbar.html");
+        });
+    </script>
+    </script>
+    
 </body>
 </html>
