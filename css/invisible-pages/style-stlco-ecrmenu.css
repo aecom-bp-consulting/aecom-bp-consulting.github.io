@@ -13,9 +13,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Lexend";
+    src: url('/fonts/Lexend/static/Lexend-Light.ttf') format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .container {
@@ -70,7 +78,7 @@ body {
     position: absolute;
     top: 100%; /* At the bottom of the tooltip */
     left: 50%;
-    margin-left: -5px;
+    margin-left: -65px;
     border-width: 5px;
     border-style: solid;
     border-color: black transparent transparent transparent;
@@ -92,6 +100,18 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+
+.text {
+    font-family: 'Lexend';
+    font-weight: 700;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better readability */
+    padding: 5px;
+    border-radius: 5px;
+}
+
 
 .icon1 {
     top: 20%;
@@ -116,4 +136,70 @@ body {
 .icon5 {
     bottom: 8%;
     left: 45.8%;
+}
+
+.text1 {
+    top: 28%;
+    left: 12%;
+}
+
+.text2 {
+    top: 28%;
+    right: 12%;
+}
+
+.text3 {
+    bottom: 17%;
+    left: 7.5%;
+}
+
+.text4 {
+    bottom: 17%;
+    right: 7.5%;
+}
+
+.text5 {
+    bottom: 5.25%;
+    left: 38.5%;
+}
+
+/* MAIN PAGE STYLE */
+
+.topbarcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    height: 33vh;
+    overflow: hidden;
+}
+
+.center-text-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lexend';
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.boldthis {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.boldthis:link {
+    text-decoration: none;
+    color: white;
+}
+
+.boldthis:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.regulartext {
+    font-size: 20px;
+    font-weight: 400;
 }
