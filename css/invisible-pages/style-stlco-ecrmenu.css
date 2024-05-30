@@ -52,12 +52,12 @@ body {
 
 .icon:hover {
     transform: scale(1.2); /* Scale up the icon on hover */
-    opacity: 0.8;          /* Change opacity on hover */
+    opacity: 1;          /* Change opacity on hover */
 }
 
 .icon .tooltip {
     visibility: hidden;
-    width: 300px;
+    width: 200px;
     background-color: black;
     font-family: 'Lexend';
     color: #fff;
@@ -67,10 +67,10 @@ body {
     position: absolute;
     z-index: 1;
     bottom: 125%; /* Position the tooltip above the icon */
-    left: 50%;
-    margin-left: -100px; /* Use half of the width to center the tooltip */
+    left: 25%;
+    margin-left: -75px; /* Use half of the width to center the tooltip */
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
 }
 
 .icon .tooltip::after {
@@ -96,7 +96,7 @@ body {
 }
 
 .tooltip-description {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 400;
 }
 
