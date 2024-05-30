@@ -40,8 +40,8 @@ body {
 
 .icon {
     position: absolute;
-    width: 100px;  /* Set the desired width */
-    height: 100px; /* Set the desired height */
+    width: 75px;  /* Set the desired width */
+    height: 75px; /* Set the desired height */
     transition: transform 0.3s, opacity 0.3s; /* Smooth transition for hover effect */
 }
 
@@ -105,7 +105,7 @@ body {
     font-family: 'Lexend';
     font-weight: 700;
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2px;
@@ -114,57 +114,57 @@ body {
 
 
 .icon1 {
-    top: 20%;
-    left: 18%;
+    top: 18.5%;
+    left: 17%;
 }
 
 .icon2 {
-    top: 20%;
-    right: 18%;
+    top: 18.5%;
+    right: 17%;
 }
 
 .icon3 {
-    bottom: 20%;
-    left: 18%;
+    bottom: 18%;
+    left: 16.5%;
 }
 
 .icon4 {
-    bottom: 20%;
-    right: 18%;
+    bottom: 18%;
+    right: 16.5%;
 }
 
 .icon5 {
-    bottom: 8%;
-    left: 43.75%;
+    bottom: 7.5%;
+    left: 44.5%;
 }
 
 .text1 {
-    top: 32.5%;
-    left: 9%;
+    top: 29%;
+    left: 10%;
 }
 
 .text2 {
-    top: 32.5%;
-    right: 9%;
+    top: 29%;
+    right: 10%;
 }
 
 .text3 {
     text-align: center;
-    bottom: 13%;
-    left: 10%;
-    width: 200px;
+    bottom: 12.25%;
+    left: 9%;
+    width: 175px;
 }
 
 .text4 {
     text-align: center;
-    bottom: 13%;
-    right: 10%;
-    width: 200px;
+    bottom: 12.25%;
+    right: 9%;
+    width: 175px;
 }
 
 .text5 {
-    bottom: 5%;
-    left: 34.2%;
+    bottom: 4.9%;
+    left: 35.2%;
 }
 
 /* MAIN PAGE STYLE */
