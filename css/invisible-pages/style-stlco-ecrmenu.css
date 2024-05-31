@@ -174,7 +174,7 @@ body {
     text-align: center;
     color: white;
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     overflow: hidden;
 }
 
@@ -201,6 +201,11 @@ body {
 .boldthis:visited {
     text-decoration: none;
     color: white;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .regulartext {
